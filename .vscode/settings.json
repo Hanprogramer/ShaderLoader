@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.luau": "lua",
+        "*.json": "jsonc",
+        "xstring": "cpp"
+    }
+}

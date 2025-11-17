@@ -1,11 +1,11 @@
 -- Mod Options
-local mod_name = "Amethyst-Template" -- Replace with the name of your mod
+local mod_name = "ShaderLoader" -- Replace with the name of your mod
 local targetMajor, targetMinor, targetPatch = 1, 21, 3 -- 1.21.0.3 (Other versions not supported by Amethyst)
-local config_options = {} -- Any additional options, see: https://github.com/AmethystAPI/Amethyst-Template/blob/main/README.md
+local config_options = {} -- Any additional options, see: https://github.com/AmethystAPI/ShaderLoader/blob/main/README.md
 
 -- Anything below here should not need to be changed
 -- To update your build script if its outdated, replace everything below these comments
--- The latest version can be found here: https://github.com/AmethystAPI/Amethyst-Template/blob/main/xmake.lua
+-- The latest version can be found here: https://github.com/AmethystAPI/ShaderLoader/blob/main/xmake.lua
 local MOD_BUILD_SCRIPT_VERSION = 2
 
 option("automated_build")
