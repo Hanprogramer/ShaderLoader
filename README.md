@@ -3,8 +3,9 @@
 Opinionated template for an Amethyst Mod, will be the base mod used in all amethyst guides! Follow the steps below to build the mod
 
 ## Installing a shader
-1. Go into your com.mojang folder and create a folder in `AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\amethyst\shaders\` (if doesn't exists run the mod once to create the shaders folder automatically)
-2. Run the game. (shaderlist.txt is not implemented yet so dont bother with it, all the shaders inside the shaders folder will be loaded)
+1. Go into your com.mojang folder and create a folder in (if not exists) `AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\amethyst\shaders\` (if doesn't exists run the mod once to create the shaders folder automatically)
+2. Extract your shaders there
+3. Run the game. (shaderlist.txt is not implemented yet so dont bother with it, all the shaders inside the shaders folder will be loaded)
 
 ## Creating a shader
 1. Go into your com.mojang folder and create a folder in `AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\amethyst\shaders\` (if doesn't exists run the mod once to create the shaders folder automatically)
@@ -16,7 +17,7 @@ Opinionated template for an Amethyst Mod, will be the base mod used in all ameth
 }
 ```
 4. Anything in the `AppData\Roaming\Amethyst\Versions\Minecraft-1.21.0.3\data\renderer` will be redirected into your shader folder. So create folders accordingly, if you want to override `materials` then create that folder in your shaders folder, then put your custom materials in there.
-5. To create custom materials use [Lazurite](https://veka0.github.io/lazurite/)
+5. To create custom materials use v0.2.1 of [Lazurite by Veka](https://veka0.github.io/lazurite/)
 5. Run the game. (shaderlist.txt is not implemented yet so dont bother with it, all the shaders inside the shaders folder will be loaded)
 
 ## Building
